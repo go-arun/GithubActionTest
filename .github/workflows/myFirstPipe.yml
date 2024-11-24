@@ -12,7 +12,7 @@ on:
       - main
 jobs:
   my_testing:
-    runs-on: [ubuntu-latest]
+    runs-on: [ubuntu-22.04]
     steps:
       - name: Priont message
         run : echo "Hello Success"
