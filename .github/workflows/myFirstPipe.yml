@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Priont message
         run : echo "Hello Success"
+      - name: Show Ubuntu versin 
+        run : cat /etc/os-release
     
     
 
